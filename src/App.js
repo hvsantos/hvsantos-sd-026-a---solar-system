@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './components/Header';
 
 class App extends React.Component {
   render() {
-    const ae = 'ae';
-    console.log(ae);
-    return (<p>Sistema Solar</p>);
+    return (
+      <div>
+        <Header />
+        <p>Sistema Solar</p>
+      </div>
+    );
   }
 }
 
